@@ -1,0 +1,39 @@
+			kotlin 笔记
+
+
+
+1 kotlin文件以kt为扩展名
+2 编译指令 kotlinc hello.kt -include-runtime -d hello.jar
+	-d:设置编译输出的名称，可以是class或.jar文件
+	-include-runtime:让.jar文件好汉kotlin运行库,从而可以直接运行
+3 运行指令:java -jar hello.jar
+4 编译成库:kotlinc hello.kt -d hello.jar
+		   kotlin -classpath hello.jar HelloKt
+5 运行REPL kotlinc-jvm打开一个shell,可直接输入kotlin代码得到运行结果
+6 kotlin可以作为脚本语言使用,后缀名为.kts
+
+函数定义:使用关键字fun，参数格式 参数:类型(多个参数用","隔开):返回类型{方法体}
+表达式作为函数体,返回类型自动推断
+
+public类型的函数，必须指明返回值(目前测试不加返回类型也没问题)
+无返回值的函数(Unit,等价于java中的void)可以省略返回类型,即使是public类型的
+可变长参数函数:使用vararg修饰,eg: vararg v:Int;
+
+lambda函数 val function: (Int,Int) -> Int = {x,y -> x+y}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
