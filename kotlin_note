@@ -34,6 +34,162 @@ lambda函数 val function: (Int,Int) -> Int = {x,y -> x+y}
 
 
 
+kotlin泛型,基本同java,如果编译器可以启动确定泛型类型,定义时可以省略类型参数
+kotlin使用:对反省进行上界约束,默认的上界是Any?,对于多个上界约束条件,可以使用where子句，
+	类似于sql的筛选语句的where的子句
+
+kotlin的型变,in/out的使用,类似于Android的AIDL
+星号投射:mark not see
+
+kotlin枚举类:
+	enum class Color{RED,BLACK,BLUE}
+	enum class Color(val rgv: Int){RED(0xff0000),GREEN(0x00ff00),BLUE(0x0000ff)}//初始化
+	Color.valueOf("RED");//获取RED的值
+	Color.values();//获取Color的所有枚举成员
+枚举默认名称为枚举字符名,值从0开始,可以添加自己的构造函数
+
+对象表达式:可以绕过定义类而直接得到一个对象
+对象表达式使用object定义
+	var c = object {
+		var name: String = "hello";
+		var age: Int = 20;
+	}
+对象可以继承于某个基类,或者实现其他接口,如果超类有一个构造函数,则必须传递参数给它,
+	多个超类和接口可以用逗号分隔.
+
+匿名对象表达式,如果生命的是私有的,则返回世界类型,如果是公有的,则返回的是超类型,如果没有超
+	类型,则返回Any类型
+
+
+kotlin中对象的声明:
+使用object,使用object可以很方便的获取一个单例:
+object Singleton{....};
+var instance1 = Singleton;
+var instance2 = Singleton;//instance1===instance2
+
+object声明的对象可以由超类:
+	//继承了user对象
+	object Student : User(){
+	
+	}
+与对象表达式不同,当对象声明在一个类的内部是,这个对象不能通过外部类的实例访问得到,只能通过
+	类名得到,在对象内也不能访问外部类的成员
+
+类内部的对象可以用companion关键字标记,这样就会与外部类关联在一起,就可以直接通过外部类
+访问到对象内部的元素,而不需要使用对象名字;
+可以省略掉该对象的对象名,然后使用Companion替代对象名
+一个类里面只能声明一个内部关联对象,即companion只能使用一次
+伴生对象可以实现接口
+
+对象表达式和对象声明之间的区别:
+1 对象表达式是在使用他们的地方立即执行的
+2 对象声明时自爱第一次被访问到时延迟初始化的
+3 伴生对象的初始化是在相应的类被加载时,与java静态初始化类似
+
+kotlin的委托:
+kotlin通过by来实现委托
+类的委托:一个类中定义的方法实际是调用另一个类中的方法来实现的
+属性委托:var/val 属性名: 类型 by 表达式 
+标准委托:延迟属性Lazy:不知道BB的啥,mark only
+可观察属性
+	Observable:Delegates.observable():接受两个属性:
+		1 初始化值
+		2 响应器(被赋值属性,旧值,新值)
+每次对应的被赋值的属性的值发生改变,都会引起响应器的响应
+
+属性存储在映射中
+TODO 后续not see...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tips:
+listOf(1,2,3,4);创建一个list列表
+协变注解修饰符: 消费者in、生产者out
+	out:使得参数类型协变,只能用作输出(返回值),无法做输入(参数值).
+	in :使得参数类型逆变,只能用作输入,无法用作输出
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
