@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hellokotlin.iml" filepath="$PROJECT_DIR$/hellokotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_kotlin.iml" filepath="$PROJECT_DIR$/hello_kotlin.iml" />
     </modules>
   </component>
 </project>

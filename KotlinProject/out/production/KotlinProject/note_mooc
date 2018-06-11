@@ -1,0 +1,5 @@
+data class 的唯一id不能一样，一样就当成同一个对象
+A as? B 安全的类型转换
+区间的定义　val range1 = 0..1024//[0,1024]
+val range2 = 0 until 1014//[2,1024)
+kotlin的()里面如果是一个lambda，可以省略()，还可以进一步简缩
