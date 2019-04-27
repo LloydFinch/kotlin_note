@@ -91,4 +91,44 @@ fun main(args: Array<String>) {
 
     println(args.indexOf("-name"))
 //    println(args[args.indexOf("-name") + 1])
+
+    val child: Super = Child1(1)
+    child.hello()
+
+    val kc: KC = KC()
+    kc.hello()
 }
+
+interface Super {
+    val j: Int
+    fun hello() {
+        println("super")
+    }
+}
+
+class Child1(override val j: Int) : Super {
+    override fun hello() {
+        println("child")
+    }
+}
+
+interface KA {
+    //kotlin 的接口可以有默认实现
+    fun hello() {
+        println("in KA")
+    }
+}
+
+interface KB {
+    fun hello() {
+        println("in KB")
+    }
+}
+
+class KC : KA, KB {
+    override fun hello() {
+        super<KA>.hello()//KA的hello
+        super<KB>.hello()//KB的hello
+    }
+}
+

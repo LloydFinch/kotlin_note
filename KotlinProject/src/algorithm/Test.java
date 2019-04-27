@@ -11,7 +11,28 @@ public class Test {
         long a = 3883008;
         System.out.println(a >> 20);
 
-        parse();
+        String url = "/share/game?game_type=1232312";
+        String game_type = "";
+        if (url != null) {
+            try {
+                String[] params = url.split("=");
+                game_type = params[1];
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println("game_type = " + game_type);
+        }
+
+
+        String json = "{\n" +
+                "\"type\":\"game_jumps\",\n" +
+                "\"help\":\"/gamehelp?id=game_jumps\",\n" +
+                "\"game_bg\":\"https://game-cdn.xiaobanhui.com/games/jumps/icons/bg.png\",\n" +
+                "\"name\":\"跳一跳\",\n" +
+                "\"icon\":\"https://game-cdn.xiaobanhui.com/games/jumps/icons/icon.png\"\n" +
+                "}";
+
+        //parse();
     }
 
 

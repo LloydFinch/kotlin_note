@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0a702f1-1ecc-4e5c-9da2-5627057802c3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/KotlinProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/Complex.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/Complex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/META-INF/KotlinProject.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/META-INF/KotlinProject.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/TestMooc$c$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/TestMooc$c$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/TestMooc.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/TestMooc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/TestMoocKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/TestMoocKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/algorithm/Test$Lyric.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/algorithm/Test$Lyric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/out/production/KotlinProject/algorithm/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/src/TestMooc.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/src/TestMooc.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinProject/src/algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinProject/src/algorithm/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/META-INF/design_pattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/META-INF/design_pattern.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Adapter$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Adapter$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Adapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Adoptee.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Adoptee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/ClientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/ClientKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/adapter_strategy/Target.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Leaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Leaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/composite_pattern/Root.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/ClientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/ClientKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/Facade.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/Facade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/ILetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/ILetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/Letter.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/Letter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/facade_pattern" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/facade_pattrern/facade_pattern" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ClientKt$handle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ClientKt$handle$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ClientKt$second$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ClientKt$second$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ClientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ClientKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ConcreteObservable1.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ConcreteObservable1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ConcreteObserver1.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/ConcreteObserver1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/Observable.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/Observable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/observer_pattern/Process.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/BackDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/BackDoor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/BlockEnemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/BlockEnemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/ClientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/ClientKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/GivenGreenLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/GivenGreenLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/IStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/out/production/design_pattern/strategy_pattern/IStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/src/bridge_pattern/bridge_pattern" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/src/bridge_pattern/bridge_pattern" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Hello.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Hello.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Hello.kt" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="826" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testIdea" type="1abcf292:AndroidViewProjectNode" />
+              <item name="testIdea" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="testIdea" type="1abcf292:AndroidViewProjectNode" />
+              <item name="testIdea" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="testIdea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HelloKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="testIdea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="HelloKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.HelloKt" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Kotlin.HelloKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0a702f1-1ecc-4e5c-9da2-5627057802c3" name="Default" comment="" />
+      <created>1531563291784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531563291784</updated>
+      <workItem from="1531563295537" duration="184000" />
+      <workItem from="1532484677812" duration="7000" />
+      <workItem from="1532484852189" duration="1919000" />
+      <workItem from="1532662582613" duration="922000" />
+      <workItem from="1533722350211" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3049000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="826" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842416" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26729107" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hello.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

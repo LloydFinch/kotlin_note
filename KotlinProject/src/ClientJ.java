@@ -1,6 +1,6 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Client {
+public class ClientJ {
 
     private static int number = 0;
 
@@ -11,7 +11,10 @@ public class Client {
         System.out.println("thread:" + Thread.currentThread());
 
         //test();
-        test2();
+        //test2();
+
+        Super child2 = new Child2();
+        child2.hello();
     }
 
     private static void increase() {
@@ -42,5 +45,40 @@ public class Client {
         int a = -1;
         int b = a >> 4;
         System.out.print(b);
+    }
+
+    static class Super {
+        protected int a = 10;
+
+        protected void hello() {
+            System.out.print("supper: " + a);
+        }
+    }
+
+    static class Child2 extends Super {
+
+        protected int a = 20;
+
+        @Override
+        protected void hello() {
+            System.out.print("child2: " + a);
+        }
+    }
+
+
+    interface A {
+        void hello();
+    }
+
+    interface B {
+        void hello();
+    }
+
+    class C implements A, B {
+
+        @Override
+        public void hello() {
+            //TODO A 的还是 B 的
+        }
     }
 }
