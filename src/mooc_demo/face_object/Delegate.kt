@@ -2,6 +2,9 @@ package mooc_demo.face_object
 
 import kotlin.reflect.KProperty
 
+/**
+ * 代理
+ */
 class Delegate {
     val hello by X() //代理只能get
     var hello2 by X() //可以get和set
