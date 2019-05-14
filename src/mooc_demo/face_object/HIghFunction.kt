@@ -68,8 +68,36 @@ fun main(args: Array<String>) {
     }
     println(number2)
 
+    println("======================fold==========")
+    //fold系列函数总结
+    val list3 = listOf(1, 2, 3, 4, 5, 6)
+    val fold = list3.fold(StringBuilder()) { acc, i ->
+        acc.append("$i-")
+    } //自己作为左缀
+    println(fold)
+    val foldRight = list3.foldRight(StringBuilder()) { i, acc ->
+        acc.append("$i-")
+    } //自己作为右缀
+    println(foldRight)
+    println("======================fold==========")
+
+
     //集合添加隔离符
     println((0..6).joinToString("|"))
+
+    println("======================I'm cute split line")
+
+    //过滤器
+    val list4 = listOf(1, 2, 3, 4, 5, 6, 7)
+    list4.filter { it > 3 } //只选取大于3的
+            .forEach { print(it) } //打印出来
+    println()
+    //选择下标大于等于5并且值大于3的
+    list4.filterIndexed { index, i -> index >= 5 && i > 3 }.forEach { print("$it") }
+    println()
+    //只要it>=5就继续跑，否则直接结束(运行直到不满足括号条件就终止)
+    val list5 = listOf(6, 7, 8, 4, 9, 5, 10, 3, 2)
+    list5.takeWhile { it >= 5 }.forEach { print(it) }
 }
 
 //使用list.reduce函数实现累乘
@@ -94,13 +122,14 @@ fun summary() {
     var list = listOf(1, 2, 3, 4, 5)
     var list1 = listOf(1..4, 10..13)
 
-    list.map { it + 1 }
-    list1.flatMap { it }
+    list.map { println(it) }
+    list1.map { it.map { } } //二次展开
+    list1.flatMap { it }//这个就牛逼了，直接展开合并成一个
     list.reduce { acc, i ->
         acc + i
-    }
-    list.joinToString { "|" }
+    } //这个把每个元素进行迭代操作
+    list.joinToString { "|" } //添加分隔符
     (0..10).fold(StringBuilder()) { acc, i ->
         acc.append(i)
-    }
+    } //有初始化值的迭代操作
 }
