@@ -1,3 +1,7 @@
+import java.util.concurrent.locks.Lock
+import java.util.concurrent.locks.ReentrantLock
+import kotlin.math.abs
+
 fun main() {
 
     /**
@@ -11,7 +15,12 @@ fun main() {
 
 //    testFunCombine(10) { number: Int -> { result: Int -> "result = ${number + result}" } }
 
-    testS()
+//    testS()
+
+    //中缀调用
+//    println(1 inc 2)
+
+    test22()
 }
 
 
@@ -49,13 +58,13 @@ fun fuck3(vararg str: String) {
 fun inc(number: Int): Int = number + 1
 
 /**
- * 中缀表达式 infix
+ * 中缀表达式 infix(忽略调用的点与圆括号，shl shr)
  * 1 必须是成员函数或者扩展函数
  * 2 它们必须只有一个参数
- * 3 参数不能 his可变参数且不能有默认值
+ * 3 参数不能是可变参数且不能有默认值
  * 在当前对象上调用infix函数时，必须显式使用this
  */
-infix fun Int.inc(number: Int): Int = this + number
+infix fun Int.inc(number: Int): Int = this shl number
 
 /**
  * 尾递归函数 tailrec
@@ -80,6 +89,12 @@ fun testFunctionAPI() {
      */
     val result2 = (1..5).fold(1, Int::times)
     println(result2)
+    //等价于上面
+    val result3 = (1..5).fold(1, { acc, i ->
+        acc * i
+    })
+
+    println(result3)
 }
 
 /**
@@ -89,13 +104,17 @@ fun testFunctionAPI() {
  * @param combine (acc: R, nextElement: T) -> R
  * @return R
  */
-fun <T, R> Collection<T>.fold2(initial: R, combine: (acc: R, nextElement: T) -> R): R {
+fun <T, R> Iterable<T>.fold2(initial: R, combine: (acc: R, nextElement: T) -> R): R {
     var accumulator: R = initial
     for (element: T in this) {
         accumulator = combine(accumulator, element)
     }
     return accumulator
 }
+
+//fun <T, R> fold3(iterable: Iterable<T>, initial: R, combine: (acc: R, nextElement: T) -> R): R {
+//
+//}
 
 
 /**
@@ -176,22 +195,39 @@ inline fun fuck2() {
 }
 
 
+/**
+ * 给List定义一个扩展函数(模拟fold函数)
+ */
+fun List<Int>.print(initial: String, action: (sum: String, i: Int) -> String): String {
+    var sb = initial
+    forEach {
+        sb = action(sb, it)
+    }
+    return sb
+}
+
+fun test22() {
+    val list = listOf(1, 2, 3, 4, 5, 6)
+    val result = list.print("0") { sum, i ->
+        sum + i.toString()
+    }
+    println(result)
 
 
+    /**
+     * 内敛函数
+     */
+    lock(lock = ReentrantLock(), body = {
+
+    })
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/**
+ * 内敛函数:提高效率
+ */
+inline fun <T> lock(lock: Lock, body: () -> T) {
+}
 
 
 

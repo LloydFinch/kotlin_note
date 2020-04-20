@@ -12,6 +12,7 @@ fun main() {
 fun test1() {
     /**
      * 仅仅创建一个简单的对象，不需要声明类
+     * 对象表达式
      */
     val aObj = object : Super() {
         var x: Int = 0
@@ -31,6 +32,10 @@ open class C {
 
     var count = 100
 
+    /**
+     * 私有的，返回直接的类型
+     * @return <no name provided>
+     */
     private fun t1() = object {
         val x = 10
         /**
@@ -46,8 +51,12 @@ open class C {
         }
     }
 
+    /**
+     * 公有的，会返回Any
+     * @return Any
+     */
     fun t2() = object {
-        val x = 10;
+        val x = 10
     }
 
     fun test() {
@@ -73,18 +82,19 @@ object Single : Action {
 /**
  * 伴生对象
  *
- * 看起来想java的静态成员，但是运行时是真实对象的实例成员
+ * 看起来像java的静态成员，但是运行时是真实对象的实例成员
  * 可以使用@JvmStatic标注为真正的静态方法或字段
  *
  * 可以继承类和实现接口
  *
  *
  * 初始化相关
- * 对象表达式是在使用的使用立即执行及初始化的
+ * 对象表达式是在使用的时候立即执行及初始化的
  * 对象声明是在第一次被访问的到时延迟初始化的
  * 伴生对象是在相应的类加载时初始化的，跟java静态初始化相同
  */
 class Comp {
+    //这个伴生对象继承了C，实现了Action
     companion object : C(), Action {
         @JvmStatic
         val sHello = "hello for static" //静态成员
@@ -114,7 +124,7 @@ fun testAlias() {
     val ln: LN //使用别名
 
     fun fuck() {
-        
+
     }
 }
 

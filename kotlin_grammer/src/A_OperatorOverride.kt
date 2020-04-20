@@ -50,7 +50,16 @@ fun main() {
     /**
      * 将-应用于PointX
      */
-    println(-pointX)
+//    println(-pointX)
+
+
+    val temp = pointX.unaryMinus()
+
+    println((-pointX))
+    println(temp)
+//    println(pointX + (-pointX))
+
+
 }
 
 
@@ -58,3 +67,6 @@ data class PointX(val x: Int, val y: Int)
 
 operator fun PointX.unaryMinus() = PointX(-x, -y)
 val pointX = PointX(10, 20)
+
+operator fun PointX.plus(pointX: PointX): PointX = PointX(this.x + pointX.x, this.y + pointX.y)
+

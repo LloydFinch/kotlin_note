@@ -45,6 +45,9 @@ fun lazyT() {
     }
 }
 
+/**
+ * 三目运算符类似
+ */
 fun notNullElse() {
     val str: String? = ""
     println(str?.length) //不为null就打印length
@@ -97,7 +100,7 @@ fun actionScopeT() {
      * also it,对象
      * let it,最后一行
      * with this,最后一行,跟run一样，只是调法不同
-     * run和with都不是扩展函数，可以没用调用者，作为表达式给变量赋值
+     * run和with都不是扩展函数，可以没有调用者，作为表达式给变量赋值
      */
 
     val str = "hello"

@@ -1,18 +1,25 @@
+/**
+ * 1 初始化块会成为主构造的一部分
+ * 2 委托主构造的调用会成为次构造的第一条语句
+ */
+
 fun main() {
 
-    InitOrder("hello", 20)
+//    InitOrder("hello", 20)
+//    println()
+
     /**
      * 如果主构造函数都有默认值，JVM会自动生成一个无参构造函数，
      * 这个构造函数使用默认值
      */
     InitOrder()
     println()
-
-    Child("name")
-    println()
-
-    compareDataClass()
-    println()
+//
+//    Child("name")
+//    println()
+//
+//    compareDataClass()
+//    println()
 }
 
 /**
@@ -29,11 +36,12 @@ const val HELLO_ANDROID = "HELLO_ANDROID"
 class InitOrder(name: String = "null") {
 
     val first = "first property $name".also(::println)
-    val second = "second property $name".also(::println)
 
     init {
         println("init1 $name")
     }
+
+    val second = "second property $name".also(::println)
 
     init {
         println("init2 $name")
@@ -42,6 +50,21 @@ class InitOrder(name: String = "null") {
     constructor(name: String, age: Int) : this(name) {
         println("second constructor $name, $age")
     }
+
+    //等价于Java的静态代码
+    companion object {
+        init {
+            println("first init in companion")
+        }
+
+        val sFirst = "first property in companion".also(::println)
+
+        init {
+            println("second init in companion $sFirst")
+        }
+    }
+
+
 }
 
 open class Super {
@@ -138,7 +161,6 @@ class Sun : Child {
         } else {
             println("has not initialized")
         }
-
     }
 
     inner class T {
@@ -167,7 +189,7 @@ class B : A {
 
 /**
  * 数据类至少有一个构造参数，并且所有构造参数要声明为为val或var，
- * 数据类不能是臭抽象、开放、密封或者内部的
+ * 数据类不能是抽象、开放、密封或者内部的
  *
  * 但是通过一些插件可以声明不带构造参数的数据类
  *
@@ -291,13 +313,26 @@ enum class Enum1 : Action {
 }
 
 
+/**
+ *
+ * public int add(int a, int b){
+ *         return a+b
+ * }
+ *
+ *
+ *
+ *
+ */
 
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
 
+fun add1(a: Int, b: Int): Int = a + b
 
-
-
-
-
+fun add(): (Int, Int) -> Int = { a, b ->
+    a + b
+}
 
 
 

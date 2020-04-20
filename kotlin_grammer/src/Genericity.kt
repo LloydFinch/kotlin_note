@@ -7,6 +7,10 @@
  * out T: java的<? extends T>
  * in T: java的<? super T>
  *
+ *
+ *     PE - CS
+ *
+ *
  * 星投影
  *
  * 多个上界用where执行
@@ -16,7 +20,9 @@
 fun main() {
 
     val count: Count<Int> = Count(10)
-    println(count.t)
+//    println(count.t)
+
+    count.test()
 }
 
 /**
@@ -30,8 +36,8 @@ class Count<T>(val t: T) {
 
     fun test() {
 
-        val arr: Array<Int> = arrayOf(1, 2, 3)
-        testOut(arr) //out使得可以传递Number的子类过去
+//        val arr: Array<Int> = arrayOf(1, 2, 3)
+//        testOut(arr) //out使得可以传递Number的子类过去
 
         val arr2: Array<Number> = arrayOf(1, 2, 3)
         testIn(arr2) //in使得可以传递Int的父类过去

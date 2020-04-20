@@ -2,7 +2,8 @@ import kotlin.reflect.full.declaredFunctions
 import kotlin.reflect.full.declaredMemberProperties
 
 /**
- * 反射(统一使用java的API来搞)
+ * 反射(统一使用java的API来搞 ::class.java)
+ * 跳过
  */
 fun main() {
     val my = My()

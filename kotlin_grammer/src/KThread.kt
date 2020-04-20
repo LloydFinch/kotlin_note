@@ -1,9 +1,3 @@
-import kotlin.concurrent.thread
-
-/**
- * kotlin协程
- */
-
 fun main() {
     testK1()
 }
@@ -12,11 +6,10 @@ fun main() {
  * kotlin使用线程，类似于java
  */
 fun testK1() {
-    thread {
-        Thread.sleep(1000)
-        println("after sleep 1000ms in ${Thread.currentThread().name}")
-
-    }
+//    thread {
+//        Thread.sleep(1000)
+//        println("after sleep 1000ms in ${Thread.currentThread().name}")
+//    }
 
     println("hello, in ${Thread.currentThread().name}")
 

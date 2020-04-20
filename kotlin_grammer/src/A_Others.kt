@@ -1,6 +1,3 @@
-import javafx.util.Pair
-import java.lang.IllegalArgumentException
-
 fun main() {
 
     testDeconstruction()
@@ -8,6 +5,7 @@ fun main() {
 
 /**
  * 解构声明
+ * 原理就是component()函数
  */
 fun testDeconstruction() {
 

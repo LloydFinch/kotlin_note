@@ -1,4 +1,6 @@
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.lang.reflect.Type;
 
 public class Test {
 
@@ -14,6 +16,8 @@ public class Test {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        System.out.println(Math.hypot(-3, 4));
     }
 
 
@@ -27,6 +31,7 @@ public class Test {
     }
 
     static class Fuck {
+        public String name;
 
         public void fuck1() {
             System.out.println("this is fuck1");
@@ -35,5 +40,11 @@ public class Test {
         public void fuck2(String message) {
             System.out.println("this is fuck2: " + message);
         }
+
+        private volatile Object object = new Object();
+    }
+
+
+    private static void test() {
     }
 }
