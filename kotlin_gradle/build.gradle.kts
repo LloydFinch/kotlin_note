@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:0.22.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6")
 }
 
 tasks.withType<KotlinCompile> {
